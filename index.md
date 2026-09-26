@@ -1,8 +1,11 @@
-<div style="background:transparent;color:inherit;padding:28px;">
+---
+layout: default
+title: Aristotelis Papantonis — CV
+---
 
-# Aristotelis Papantonis 
+<div markdown="1" style="background:transparent;color:inherit;padding:28px;">
 
-<h3 style="color:#378C3F;margin:20px 0 8px;">Software Architect / Software Engineer</h3> 
+<h3 style="color:#378C3F;margin:20px 0 8px;">Software Architect / Software Engineer</h3>
 
 
 <table aria-label="Contact links" style="width:100%;table-layout:fixed;border-collapse:collapse;border:none;margin:18px 0 26px;background:transparent;color:inherit;font-size:18px;">
@@ -64,9 +67,9 @@
       <td
         style="padding:16px 12px;border:none solid #378C3F;vertical-align:top;text-align:left;background:transparent;color:inherit;overflow-wrap:anywhere;">
         <strong style="display:block;min-height:48px;font-size:13px;line-height:1.5;">typescript/nodejs/nestjs</strong>
-        <div style="margin-top:10px;"><span role="img" aria-label="90 percent"
+        <div style="margin-top:10px;"><span role="img" aria-label="100 percent"
             style="font-family:monospace;font-size:16px;letter-spacing:0;white-space:nowrap;"><span
-              style="color:#378C3F;">██████████</span><span style="color:#378C3F;opacity:0.25;">░</span></span></div>
+              style="color:#378C3F;">██████████</span><span style="color:#378C3F;opacity:0.25;"></span></span></div>
       </td>
       <td
         style="padding:16px 12px;border:none solid #378C3F;vertical-align:top;text-align:left;background:transparent;color:inherit;overflow-wrap:anywhere;">
@@ -256,3 +259,32 @@ Authors: L. Sarakis, Th. Orphanoudakis, P. Chatzimisios, A. Papantonis, P. Karka
 <h3 style="color:#378C3F;margin:20px 0 8px;">Development and evaluation of embedded system for intelligent transport systems (ITS) applications via wireless communication network (802.11p).</h3>
 
 Authors: Aristotelis Papantonis
+
+<style>
+  /* Dark page with light text */
+  html,
+  body,
+  .markdown-body {
+    background: #0d1117;
+    color: #e6edf3;
+    color-scheme: dark;
+  }
+
+  /* Remove the theme's white table backgrounds */
+  .markdown-body table tr,
+  .markdown-body table tr:nth-child(2n),
+  .markdown-body table th,
+  .markdown-body table td {
+    background: transparent;
+  }
+
+  /* Green links and subtle heading dividers */
+  .markdown-body a {
+    color: #378c3f;
+  }
+
+  .markdown-body h1,
+  .markdown-body h2 {
+    border-bottom-color: #30363d;
+  }
+</style>
